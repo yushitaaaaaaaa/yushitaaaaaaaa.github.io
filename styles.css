@@ -78,3 +78,38 @@ hr {
     border: 1px solid #ccc;
     margin: 15px 0;
 }
+
+.section-heading {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.project-box {
+    border: 2px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+.project-title a i {
+    font-size: 1.2em;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.project-title a i:hover {
+    color: #007bff;
+}
+
