@@ -1,36 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
     background-color: #f9f9f9;
-}
-
-fieldset {
-    background-color: #ffffff;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    color: #333;
-}
-
-.wrapingimage img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
-    float: left;
-}
-
-.contact-info img {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-    margin-right: 5px;
 }
 
 .contact-info a {
@@ -43,32 +12,13 @@ h1 {
     text-decoration: underline;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+.card {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-table, th, td {
-    border: 2px solid white;
-}
-
-th {
-    background-color: #C0C0C0;
-    padding: 8px;
-    text-align: left;
-}
-
-td {
-    background-color: #eeeeee;
-    padding: 8px;
-}
-
-ul {
-    list-style-type: circle;
-}
-
-#footer {
-    text-align: center;
-    margin-top: 20px;
-    color: #777;
+footer {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #555;
 }
