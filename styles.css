@@ -1,24 +1,71 @@
 body {
-    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-.contact-info a {
-    text-decoration: none;
-    color: #0073b1;
+.container {
+    max-width: 900px;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #222;
+}
+
+.subheading {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.education-item, .responsibility {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.year {
     font-weight: bold;
+    color: #555;
 }
 
-.contact-info a:hover {
+.project h3 {
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
-.card {
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+ul {
+    list-style-type: square;
 }
 
-footer {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #555;
+i {
+    margin-right: 5px;
 }
