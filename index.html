@@ -4,86 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yushita Kalra - Resume</title>
+    <link rel="icon" type="image/png" href="profile.jpg"> 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container mt-4">
-        <!-- Header Section -->
-        <div class="header d-flex align-items-center">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-            <div>
-                <h1>Yushita Kalra</h1>
-                <p class="text-muted">Aspiring Full Stack Developer Intern</p>
-                <p>
-                    <i class="fas fa-envelope"></i> <a href="mailto:e22cseu1223@bennett.edu.in">e22cseu1223@bennett.edu.in</a> |
-                    <i class="fas fa-phone"></i> <a href="tel:8237884979">8237884979</a> |
-                    <i class="fas fa-map-marker-alt"></i> Noida, India |
-                    <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yushita-kalra-07914825b" target="_blank">LinkedIn</a> |
-                    <i class="fab fa-github"></i> <a href="https://github.com/yushitaaaaaaa" target="_blank">GitHub</a>
-                </p>
+    <div class="container resume">
+        <header class="text-center">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <h1>Yushita Kalra</h1>
+            <p class="subheading">Aspiring Full-Stack Developer Intern</p>
+            <p>
+                <i class="fas fa-envelope"></i> <a href="mailto:e22cseu1223@bennett.edu.in">e22cseu1223@bennett.edu.in</a> |
+                <i class="fas fa-phone"></i> <a href="tel:8237884979">8237884979</a> |
+                <i class="fas fa-map-marker-alt"></i> Noida, India |
+                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/yushita-kalra-07914825b" target="_blank">LinkedIn</a> |
+                <i class="fab fa-github"></i> <a href="https://github.com/yushitaaaaaaaa" target="_blank">GitHub</a>
+            </p>
+        </header>
+
+        <section class="section">
+            <h2>EDUCATION</h2>
+            <div class="education-item">
+                <div>
+                    <b>B.Tech in CSE (Full Stack)</b><br>
+                    <i>Bennett University</i><br>
+                    CGPA - 7.93
+                </div>
+                <span class="year">2022 – 2026</span>
             </div>
-        </div>
-        
-        <!-- Education Section -->
-        <section class="mt-4">
-            <h2 class="section-title">Education</h2>
-            <div class="education">
-                <p><strong>B.Tech in CSE (Full Stack)</strong><br><em>Bennett University</em><br>CGPA - 7.93</p>
-                <span>2022 – 2026</span>
+            <div class="education-item">
+                <div>
+                    <b>Higher Secondary</b><br>
+                    <i>National Institute of Open Schooling</i><br>
+                    Percentage - 62.5% <br>
+                    <i>*Managed academics while undergoing medical treatment*</i>
+                </div>
+                <span class="year">2022</span>
             </div>
-            <div class="education">
-                <p><strong>Higher Secondary</strong><br><em>NIOS</em><br>Percentage - 62.5</p>
-                <span>2022</span>
-            </div>
-            <div class="education">
-                <p><strong>Secondary School</strong><br><em>G.G. International School</em><br>Percentage - 95.6</p>
-                <span>2018 – 2020</span>
+            <div class="education-item">
+                <div>
+                    <b>Secondary School</b><br>
+                    <i>G.G. International School</i><br>
+                    Percentage - 95.6%
+                </div>
+                <span class="year">2018 – 2020</span>
             </div>
         </section>
-        
-        <!-- Projects Section -->
-        <section class="mt-4">
-            <h2 class="section-title">Projects</h2>
+
+        <section class="section">
+            <h2>PROJECTS</h2>
             <div class="project">
-                <h4>TO-DOist <a href="GITHUB_LINK" target="_blank"><i class="fas fa-link"></i></a></h4>
-                <p><em>User-friendly task management app with CRUD operations.</em></p>
-                <ul>
-                    <li><strong>Technologies:</strong> MERN Stack (MongoDB, Express.js, React, Node.js), JWT Authentication</li>
-                    <li><strong>Key Features:</strong> Task prioritization, calendar integration, real-time updates.</li>
-                </ul>
+                <h3>TO-DOist <i class="fas fa-external-link-alt"></i></h3>
+                <p><i>User-friendly web-based application for task management.</i></p>
+                <b>Technologies:</b> MERN Stack (MongoDB, Express.js, React, Node.js), JWT Authentication, Postman<br>
+                <b>Key Features:</b> CRUD operations, task prioritization, deadline selection, real-time updates.<br>
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3>DiaBeat <i class="fas fa-external-link-alt"></i></h3>
+                <p><i>Diabetes management system with analytics and meal tracking.</i></p>
+                <b>Technologies:</b> MERN Stack, JWT Authentication<br>
+                <b>Key Features:</b> Tracks vitals, stores reports, generates health insights.<br>
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank"><i class="fab fa-github"></i> GitHub</a>
             </div>
         </section>
-        
-        <!-- Certifications Section -->
-        <section class="mt-4">
-            <h2 class="section-title">Certifications</h2>
+
+        <section class="section">
+            <h2>CERTIFICATIONS</h2>
             <ul>
-                <li>React Basics (Meta)</li>
-                <li>React Native (Meta)</li>
-                <li>AZ-900: Microsoft Azure Fundamentals</li>
-                <li>Introduction to HTML, CSS, and JavaScript (IBM)</li>
-                <li>Node.js & MongoDB: Developing Back-end Database Applications (IBM)</li>
+                <li>React Basics (Meta) <i class="fas fa-certificate"></i></li>
+                <li>React Native (Meta) <i class="fas fa-certificate"></i></li>
+                <li>Microsoft Azure AZ-900 <i class="fas fa-certificate"></i></li>
+                <li>Data Structures (University of California San Diego) <i class="fas fa-certificate"></i></li>
             </ul>
         </section>
-        
-        <!-- Position of Responsibility -->
-        <section class="mt-4">
-            <h2 class="section-title">Position of Responsibility</h2>
+
+        <section class="section">
+            <h2>POSITIONS OF RESPONSIBILITY</h2>
             <div class="responsibility">
-                <p><strong>Zenart, Bennett University</strong><br><em>Social Media Head</em></p>
-                <span>08/2023 – 12/2023</span>
+                <div>
+                    <b>Zenart, Bennett University</b><br>
+                    <i>Social Media Head</i>
+                </div>
+                <span class="year">08/2023 – 12/2023</span>
             </div>
         </section>
-        
-        <!-- Interests Section -->
-        <section class="mt-4">
-            <h2 class="section-title">Interests</h2>
+
+        <section class="section">
+            <h2>INTERESTS</h2>
             <ul>
                 <li>Reading</li>
                 <li>Yoga</li>
-                <li>Mandala Art <a href="https://www.instagram.com/art_with_yo" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li>Mandala Art &nbsp;
+                    <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/art_with_yo" target="_blank">@art_with_yo</a>
+                </li>
             </ul>
         </section>
     </div>
