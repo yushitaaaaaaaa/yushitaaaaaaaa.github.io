@@ -113,3 +113,21 @@ hr {
     color: #007bff;
 }
 
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.skill-category {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
