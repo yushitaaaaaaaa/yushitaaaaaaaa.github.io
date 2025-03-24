@@ -131,3 +131,17 @@ hr {
     font-size: 14px;
 }
 
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.certification-item {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+
