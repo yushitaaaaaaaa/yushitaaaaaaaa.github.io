@@ -4,122 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yushita Kalra - Resume</title>
-    <link rel="icon" type="image/png" href="profile.jpg"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container resume">
-        <header class="d-flex align-items-center">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
-            <div class="header-text">
-                <h1>Yushita Kalra</h1>
-                <p class="subheading">Aspiring Full-Stack Developer Intern</p>
+    <div class="container mt-4">
+        <div class="header d-flex align-items-center">
+            <img src="profile.jpg" alt="Profile Picture" class="rounded-circle me-3" width="120" height="120">
+            <div>
+                <h2><strong>Yushita Kalra</strong></h2>
+                <p><em>Aspiring Full-Stack Developer Intern</em></p>
                 <p>
-                    <i class="fas fa-envelope"></i> <a href="mailto:e22cseu1223@bennett.edu.in">e22cseu1223@bennett.edu.in</a><br>
-                    <i class="fas fa-phone"></i> <a href="tel:8237884979">8237884979</a><br>
-                    <i class="fas fa-map-marker-alt"></i> Noida, India <br>
-                    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/yushita-kalra-07914825b" target="_blank">LinkedIn</a> |
-                    <i class="fab fa-github"></i> <a href="https://github.com/yushitaaaaaaaa" target="_blank">GitHub</a>
+                    <a href="mailto:e22cseu1223@bennett.edu.in"><i class="fas fa-envelope"></i> e22cseu1223@bennett.edu.in</a> |
+                    <i class="fas fa-phone"></i> 8237884979 |
+                    <i class="fas fa-map-marker-alt"></i> Noida, India |
+                    <a href="https://linkedin.com/in/yushita-kalra-07914825b"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+                    <a href="https://github.com/yushitaaaaaaa"><i class="fab fa-github"></i> GitHub</a>
                 </p>
             </div>
-        </header>
+        </div>
 
         <hr>
-
-        <section class="section">
-            <h2>EDUCATION</h2>
-            <hr>
-            <div class="education-item">
-                <div>
-                    <b>B.Tech in CSE (Full Stack)</b><br>
-                    <i>Bennett University</i><br>
-                    CGPA - 7.93
-                </div>
-                <span class="year">2022 – 2026</span>
-            </div>
-            <div class="education-item">
-                <div>
-                    <b>Higher Secondary</b><br>
-                    <i>National Institute of Open Schooling</i><br>
-                    Percentage - 62.5% <br>
-                    <i>*Managed academics while undergoing medical treatment*</i>
-                </div>
-                <span class="year">2022</span>
-            </div>
-            <div class="education-item">
-                <div>
-                    <b>Secondary School</b><br>
-                    <i>G.G. International School</i><br>
-                    Percentage - 95.6%
-                </div>
-                <span class="year">2018 – 2020</span>
-            </div>
-        </section>
-
+        <h3>EDUCATION</h3>
+        <div class="mb-3">
+            <p><strong>B.Tech in CSE (Full Stack)</strong><br><em>Bennett University</em><br>CGPA - 7.93</p>
+            <p><strong>Higher Secondary</strong><br><em>National Institute of Open Schooling</em><br>Percentage - 62.5%</p>
+            <p><strong>Secondary School</strong><br><em>G.G. International School</em><br>Percentage - 95.6%</p>
+        </div>
+        <hr>
+        
+        <h3>PROJECTS</h3>
+        <div class="mb-3">
+            <p><strong>TO-DOist <a href="github_link" target="_blank"><i class="fab fa-github"></i></a></strong></p>
+            <p><em>User-friendly task management system.</em></p>
+            <p><strong>Technologies:</strong> MERN Stack, JWT, Postman</p>
+            <p><strong>Key Features:</strong> CRUD operations, task prioritization, real-time updates.</p>
+        </div>
+        <div class="mb-3">
+            <p><strong>DiaBeat <a href="github_link" target="_blank"><i class="fab fa-github"></i></a></strong></p>
+            <p><em>Diabetes management system with analytics and meal tracking.</em></p>
+            <p><strong>Technologies:</strong> MERN Stack, JWT Authentication</p>
+            <p><strong>Key Features:</strong> Tracks vitals, stores reports, generates insights.</p>
+        </div>
+        <div class="mb-3">
+            <p><strong>Weather Application <a href="github_link" target="_blank"><i class="fab fa-github"></i></a></strong></p>
+            <p><em>Real-time weather updates based on user location.</em></p>
+            <p><strong>Technologies:</strong> React Native, Expo, OpenWeather API</p>
+            <p><strong>Key Features:</strong> Temperature conversion, real-time search, modern UI.</p>
+        </div>
         <hr>
 
-        <section class="section">
-            <h2>PROJECTS</h2>
-            <hr>
-            <div class="project">
-                <h3>TO-DOist <i class="fas fa-external-link-alt"></i></h3>
-                <p><i>User-friendly web-based application for task management.</i></p>
-                <b>Technologies:</b> MERN Stack (MongoDB, Express.js, React, Node.js), JWT Authentication, Postman<br>
-                <b>Key Features:</b> CRUD operations, task prioritization, deadline selection, real-time updates.<br>
-                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            </div>
-
-            <div class="project">
-                <h3>DiaBeat <i class="fas fa-external-link-alt"></i></h3>
-                <p><i>Diabetes management system with analytics and meal tracking.</i></p>
-                <b>Technologies:</b> MERN Stack, JWT Authentication<br>
-                <b>Key Features:</b> Tracks vitals, stores reports, generates health insights.<br>
-                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            </div>
-        </section>
-
+        <h3>CERTIFICATIONS</h3>
+        <ul>
+            <li>React Basics (Meta)</li>
+            <li>React Native (Meta)</li>
+            <li>Microsoft Azure AZ-900</li>
+            <li>Data Structures (University of California San Diego)</li>
+        </ul>
         <hr>
 
-        <section class="section">
-            <h2>CERTIFICATIONS</h2>
-            <hr>
-            <ul>
-                <li>React Basics (Meta) <i class="fas fa-certificate"></i></li>
-                <li>React Native (Meta) <i class="fas fa-certificate"></i></li>
-                <li>Microsoft Azure AZ-900 <i class="fas fa-certificate"></i></li>
-                <li>Data Structures (University of California San Diego) <i class="fas fa-certificate"></i></li>
-            </ul>
-        </section>
-
+        <h3>SKILLS</h3>
+        <ul>
+            <li><strong>Programming Languages:</strong> JavaScript, Python, Java</li>
+            <li><strong>Databases:</strong> MySQL, MongoDB</li>
+            <li><strong>Software Development:</strong> OOPs, Data Structures, Algorithms, RESTful APIs</li>
+            <li><strong>Markup Languages:</strong> HTML, CSS</li>
+            <li><strong>Libraries & Frameworks:</strong> Node.js, Mongoose, Bootstrap, React.js, Express.js</li>
+            <li><strong>Tools:</strong> VS Code, IDLE, Visual Paradigm, Postman, Expo</li>
+        </ul>
         <hr>
 
-        <section class="section">
-            <h2>POSITIONS OF RESPONSIBILITY</h2>
-            <hr>
-            <div class="responsibility">
-                <div>
-                    <b>Zenart, Bennett University</b><br>
-                    <i>Social Media Head</i>
-                </div>
-                <span class="year">08/2023 – 12/2023</span>
-            </div>
-        </section>
-
+        <h3>POSITIONS OF RESPONSIBILITY</h3>
+        <p><strong>Zenart, Bennett University</strong><br><em>Social Media Head</em> <span class="float-end">08/2023 – 12/2023</span></p>
         <hr>
 
-        <section class="section">
-            <h2>INTERESTS</h2>
-            <hr>
-            <ul>
-                <li>Reading</li>
-                <li>Yoga</li>
-                <li>Mandala Art &nbsp;
-                    <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/art_with_yo" target="_blank">@art_with_yo</a>
-                </li>
-            </ul>
-        </section>
+        <h3>INTERESTS</h3>
+        <ul>
+            <li>Reading</li>
+            <li>Yoga</li>
+            <li>Mandala Art <a href="https://instagram.com/art_with_yo" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
     </div>
 </body>
 </html>
