@@ -117,7 +117,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: #f8f9fa;
+/*     background-color: #f8f9fa; */
     padding: 15px;
     border-radius: 10px;
 /*     border: 1px solid #ddd; */
