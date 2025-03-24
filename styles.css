@@ -2,28 +2,73 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
 }
-header {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-}
-section {
-    background: white;
-    padding: 20px;
-    margin: 20px 0;
+
+fieldset {
+    background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-h2 {
+
+h1 {
     color: #333;
 }
-a {
-    color: #007bff;
-    text-decoration: none;
+
+.wrapingimage img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
 }
-a:hover {
+
+.contact-info img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
     text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid white;
+}
+
+th {
+    background-color: #C0C0C0;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    background-color: #eeeeee;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
 }
