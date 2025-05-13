@@ -147,6 +147,22 @@ body {
     margin-bottom: 10px;
 }
 
+.project-features {
+    padding-left: 1.2rem;
+}
+
+.project-features li {
+    margin-bottom: 8px;
+}
+
+.project-desc {
+    margin-bottom: 15px;
+}
+
+.project-desc strong {
+    color: var(--dark-color);
+}
+
 .tech-badge {
     background-color: #eef2ff;
     color: var(--primary-color);
