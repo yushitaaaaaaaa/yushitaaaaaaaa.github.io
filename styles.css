@@ -99,6 +99,7 @@ body {
 .education-location {
     color: #6b7280;
     font-size: 0.9rem;
+    margin-top: 5px;
 }
 
 .education-year {
