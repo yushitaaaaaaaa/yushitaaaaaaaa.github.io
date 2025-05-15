@@ -26,6 +26,68 @@ body {
     padding-bottom: 20px;
 }
 
+.navbar {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: var(--dark-color);
+    font-weight: 500;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--primary-color);
+    background-color: #eef2ff;
+    transform: translateY(-2px);
+}
+
+/* Add smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adjust padding for section headings to account for fixed navbar */
+.section-heading {
+    scroll-margin-top: 70px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 992px) {
+    .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .nav-item {
+        flex: 1 1 auto;
+    }
+    
+    .nav-link {
+        margin: 5px;
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-item {
+        flex: 1 1 45%;
+    }
+}
+
 .profile-img {
     width: 150px;
     height: 150px;
