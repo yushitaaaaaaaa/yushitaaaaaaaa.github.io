@@ -17,7 +17,6 @@ This repository contains the source code for my personal portfolio website that 
 - Fully responsive design that works on all devices
 - Interactive project cards with GitHub links
 - Quick navigation system with smooth scrolling
-- Project sub-navigation for easy browsing between projects
 - Clean, modern UI with a professional color scheme
 
 ## 🚀 Projects Showcased
