@@ -85,6 +85,19 @@ html {
     }
 }
 
+/* .section-subnav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: -10px 0 20px 0;
+    padding: 12px 15px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    border-left: 3px solid var(--primary-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+} */
+
 .section-subnav {
     display: flex;
     flex-wrap: wrap;
@@ -96,6 +109,9 @@ html {
     border-radius: 8px;
     border-left: 3px solid var(--primary-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 70px;
+    z-index: 100;
 }
 
 .section-subnav-title {
