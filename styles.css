@@ -272,6 +272,54 @@ font-style: italic;
 color: #6b7280;
 }
 
+/* Work Experience Section */
+
+.work-item {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed var(--border-color);
+  transition: transform 0.3s ease;
+}
+
+.work-item:last-child {
+  border-bottom: none;
+}
+
+.work-item:hover {
+  transform: translateX(5px);
+}
+
+.work-role {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--dark-color);
+  margin-bottom: 5px;
+}
+
+.work-company {
+  font-style: italic;
+  color: #6b7280;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.work-date,
+.work-location {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .work-date,
+  .work-location {
+    text-align: left;
+    margin-top: 6px;
+  }
+}
+
+
 /* Project Cards */
 
 .project-card {
