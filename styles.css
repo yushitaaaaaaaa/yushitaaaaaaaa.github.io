@@ -391,7 +391,7 @@ border-bottom: 1px dashed #e5e7eb;
 }
 
 .project-desc strong {
-color: var(--primary);
+color: var(--dark-color);
 }
 
 .project-features {
