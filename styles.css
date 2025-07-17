@@ -303,7 +303,13 @@ color: #6b7280;
   font-size: 0.95rem;
 }
 
-.work-date,
+.work-date {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  text-align: right;
+}
+
 .work-location {
   color: #6b7280;
   font-size: 0.9rem;
