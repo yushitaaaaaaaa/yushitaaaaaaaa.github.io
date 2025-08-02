@@ -274,57 +274,204 @@ color: #6b7280;
 
 /* Work Experience Section */
 
-.work-item {
-  margin-bottom: 25px;
-  padding-bottom: 20px;
-  border-bottom: 1px dashed var(--border-color);
-  transition: transform 0.3s ease;
+.work-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 25px;
+    overflow: hidden;
+    background-color: white;
 }
 
-.work-item:last-child {
-  border-bottom: none;
+.work-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.work-item:hover {
-  transform: translateX(5px);
+.work-header {
+    background-color: #f3f4f6;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    scroll-margin-top: 90px;
 }
 
-.work-role {
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--dark-color);
-  margin-bottom: 5px;
+.work-title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Take full width of the header */
 }
 
-.work-company {
-  font-style: italic;
-  color: #6b7280;
-  margin-bottom: 8px;
-  font-size: 0.95rem;
+.work-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--dark-color);
+    margin: 0;
+    flex: 1; /* Allow title to take available space */
 }
 
-.work-date {
-  color: var(--primary-color);
-  font-size: 0.9rem;
-  margin-bottom: 4px;
-  text-align: right;
+.work-title-section .work-location-text {
+    color: #6b7280;
+    font-size: 0.85rem;
+    font-weight: 400;
 }
 
-.work-location {
-  color: #6b7280;
-  font-size: 0.9rem;
-  margin-bottom: 4px;
-  text-align: right;
+.work-title-section .work-location-text i {
+    color: #9ca3af;
 }
 
+.work-location-badge {
+    color: #4b5563;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.work-location-badge:hover {
+    color: var(--primary-color);
+    background-color: rgba(99, 102, 241, 0.1);
+    transform: rotate(5deg);
+}
+
+.work-body {
+    padding: 20px;
+}
+
+.work-desc {
+    font-style: italic;
+    color: #6b7280;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e5e7eb;
+}
+
+.work-desc strong {
+    color: var(--dark-color);
+}
+
+.work-location-text {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.work-summary {
+    background-color: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    color: #374151;
+    line-height: 1.6;
+}
+
+.project-head {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.project-subtitle {
+    font-size: 1.08rem;
+    margin-bottom: 10px;
+}
+
+.work-features {
+    padding-left: 1.2rem;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.work-features li {
+    margin-bottom: 10px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.work-features li::before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: -1em;
+}
+
+.tech-badge {
+    background-color: #eef2ff;
+    color: var(--primary-color);
+    border: 1px solid #ddd6fe;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.tech-badge:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.tech-badges-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-end;
+}
+
+.tech-badges-inline .tech-badge {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments for work section */
 @media (max-width: 768px) {
-  .work-date,
-  .work-location {
-    text-align: left;
-    margin-top: 6px;
-  }
+    .work-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .work-title {
+        font-size: 1.1rem;
+    }
+    
+    .work-title-section .work-location-text {
+        font-size: 0.8rem;
+    }
+    
+    .work-body {
+        padding: 15px;
+    }
+    
+    .project-section {
+        padding: 12px;
+    }
+    
+    .d-flex.flex-wrap.align-items-center {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    
+    .project-subtitle {
+        margin-bottom: 10px !important;
+    }
+    
+    .tech-badges-inline {
+        margin-top: 8px;
+    }
 }
-
 
 /* Project Cards */
 
